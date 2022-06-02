@@ -8,7 +8,7 @@ for i in range(0,user_elements):
     list_ele.append(user_enter)                                                         #We append the elements as the user enters the elements
 print(list_ele)                                                                         #Showing all the elements of the unswapped list
 
-#We perform the swapping of elements of the first and last elements 
+#We perform the swapping of elements namely the first and last elements
 list_ele[0] = list_ele[0]+list_ele[user_elements-1]
 list_ele[user_elements-1] = list_ele[0]-list_ele[user_elements-1]
 list_ele[0] = list_ele[0] - list_ele[user_elements-1]
